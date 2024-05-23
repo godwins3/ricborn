@@ -1,19 +1,20 @@
 import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap';
-import { HeroImage } from './Datasheets/Datasheet';
+import { HeroImage } from '../Datasheets/Datasheet';
 
-function Portfolio() {
+function Blog() {
     return (
-        <section id="portfolio" className="py-5 bg-light">
+        <section id="blog" className="py-5">
             <Container>
-                <h2>Our Portfolio</h2>
+                <h2 className="text-center">Our Blog</h2>
                 <Row>
                     <Col md={4}>
                         <Card>
                             <Card.Img variant="top" src={HeroImage.img} />
                             <Card.Body>
-                                <Card.Title>Project Title</Card.Title>
-                                <Card.Text>Description of the project and results achieved.</Card.Text>
+                                <Card.Title>Blog Post Title</Card.Title>
+                                <Card.Text>Excerpt from the blog post...</Card.Text>
+                                <a href="https://www.aoristlabs.co/" className="btn btn-primary">Read More</a>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -21,8 +22,9 @@ function Portfolio() {
                         <Card>
                             <Card.Img variant="top" src={HeroImage.img} />
                             <Card.Body>
-                                <Card.Title>Project Title</Card.Title>
-                                <Card.Text>Description of the project and results achieved.</Card.Text>
+                                <Card.Title>Blog Post Title</Card.Title>
+                                <Card.Text>Excerpt from the blog post...</Card.Text>
+                                <a href="https://www.aoristlabs.co/" className="btn btn-primary">Read More</a>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -30,17 +32,18 @@ function Portfolio() {
                         <Card>
                             <Card.Img variant="top" src={HeroImage.img} />
                             <Card.Body>
-                                <Card.Title>Project Title</Card.Title>
-                                <Card.Text>Description of the project and results achieved.</Card.Text>
+                                <Card.Title>Blog Post Title</Card.Title>
+                                <Card.Text>Excerpt from the blog post...</Card.Text>
+                                <a href="https://www.aoristlabs.co/" className="btn btn-primary">Read More</a>
                             </Card.Body>
                         </Card>
                     </Col>
                     
-                    {/* Add more portfolio items as needed */}
+                    {/* Add more blog post previews as needed */}
                 </Row>
             </Container>
         </section>
     );
 }
 
-export default Portfolio;
+export default Blog;

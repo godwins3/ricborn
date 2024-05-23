@@ -6,7 +6,7 @@ function Services() {
     return (
         <section id="services" className="py-5 bg-light">
             <Container>
-                <h2>Our Services</h2>
+                <h2 className="text-center">Our Services</h2>
                 <Row>
                     <Col md={4}>
                         <Card className="mb-4">

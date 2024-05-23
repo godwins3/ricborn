@@ -1,12 +1,12 @@
 import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap';
-import { HeroImage } from './Datasheets/Datasheet';
+import { HeroImage } from '../Datasheets/Datasheet';
 
 function Team() {
     return (
         <section id="team" className="py-5">
             <Container>
-                <h2>Our Team</h2>
+                <h2 className="text-center">Our Team</h2>
                 <Row>
                     <Col md={4} className="team-member">
                         <Card>

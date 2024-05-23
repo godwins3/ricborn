@@ -4,29 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Ricborn Advertising and Marketing Agency">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' https://maps.googleapis.com;">
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
   <title>Ricborn Advertising</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" integrity="sha384-Piv4xVNRyMGpqkR0DvzzjtZ3SOaXShY8AU6pHNHcCI9YLFpBBP5O8dQJ5NI2F0pF" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+
   <!-- Google Maps API -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSZAhSOlyhFaIcFPiL3l4pH8H8Jew1dVI&callback=initMap" async defer></script>
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSZAhSOlyhFaIcFPiL3l4pH8H8Jew1dVI&callback=initMap&loading=async"></script>
   <script>
     function initMap() {
-      var location = { lat: -1.2921, lng: 36.8219 }; // Coordinates for Nairobi, Kenya
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
-        center: location
-      });
-      var marker = new google.maps.Marker({
-        position: location,
-        map: map
-      });
+      // Define this function globally
+      if (window.initMapCallback) {
+        window.initMapCallback();
+      }
     }
-  </script>
-  <!-- React and Bootstrap scripts -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js" integrity="sha384-5QNTUHT2Y2MzmOiYQgFJyqDHuFSYTLQ6j7mYfqu4lrqYcaCZONF2VszJgf5/U9xI" crossorigin="anonymous"></script>
+  </script> -->
 </body>
 </html>
