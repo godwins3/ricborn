@@ -1,13 +1,13 @@
 import React from 'react';
-import NavigationBar from '../components/Navbar';
-import Hero from '../components/Hero';
-import About from '../components/About';
-import Services from '../components/Services';
-import Team from '../components/Team';
-import Portfolio from '../components/Portfolio';
-import Blog from '../components/Blog';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
+import NavigationBar from '../components/Navbar/Navbar';
+import Hero from '../components/Hero/Hero';
+import About from '../components/About/About';
+import Services from '../components/Services/Services';
+import Team from '../components/Team/Team';
+import Portfolio from '../components/Portfolio/Portfolio';
+import Blog from '../components/Blog/Blog';
+import Contact from '../components/Contact/Contact';
+import Footer from '../components/Footer/Footer';
 
 function App() {
     return (
