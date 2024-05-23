@@ -1,0 +1,52 @@
+.section-a{
+    margin-top:1rem;
+  }
+  .section-a .row .cards {
+    flex-basis: 47%;
+    text-align: start;
+    color: var(--black);
+    border:5px solid var(--orange);
+    min-height:250px;
+    border-left:none;
+    border-top:none;
+    padding-right:1rem;
+  }
+  .cards .description {
+    margin-top: 2rem;
+  }
+  
+  #section-a-company-objectives .cards .sub-title {
+    font-size: var(--heading-large-devices);
+    border-bottom: none;
+    text-align: center;
+    display: inline;
+  }
+  
+  .section-a .cards .description {
+    font-size: 1.15rem;
+  }
+  
+  @media (max-width: 644px) {
+    #section-a-company-objectives .cards .description {
+      font-size: var(--small-device);
+    }
+    #section-a-company-objectives .cards .sub-title {
+      font-size: var(--heading-small-device);
+    }
+  }
+  @media (max-width: 600px) {
+    .section-a .container .flex {
+      flex-direction: column;
+    }
+    .section-a .sub-title {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .section-a .row .cards{
+      margin:1rem 0rem;
+      
+    }
+  }
+  

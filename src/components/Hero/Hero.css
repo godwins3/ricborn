@@ -1,11 +1,11 @@
 .hero {
-    background: url('../../images/hero-image.jpg') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-  }
-  
+  position: relative;
+  background: url('../../images/nairobi.jpg') no-repeat center center;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+  text-align: center;
+}
