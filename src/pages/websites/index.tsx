@@ -21,7 +21,7 @@ export default function Websites() {
   return (
     <>
       <Head>
-        <title>Websites  | Jeli Digital Agency</title>
+        <title>Websites  |  RicBorn Marketing Agency</title>
         <meta name='description' content="Web Design, UI/UX, development, hosting, domains. Everything to make your business visible online." />
         <link rel='canonical' href='/websites' />
         <link rel="icon" href="/favicon.ico" />

@@ -21,7 +21,7 @@ export default function DigitalMarketing() {
   return (
     <>
       <Head>
-        <title>Digital Marketing | Jeli Digital Agency</title>
+        <title>Digital Marketing |  RicBorn Marketing Agency</title>
         <meta name='description' content='Google Ads? Running a blog about your business and industry? Mailing and newsletters? Courses? Here you will find plenty of ideas on how to grow your business online.' />
         <link rel='canonical' href='/digital-marketing' />
         <link rel="icon" href="/favicon.ico" />

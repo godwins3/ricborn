@@ -17,7 +17,7 @@ export default function Report() {
   return (
     <>
       <Head>
-        <title>Parsonalized report | Jeli Digital Agency</title>
+        <title>Parsonalized report |  RicBorn Marketing Agency</title>
         <meta name='description' content='We are preparing a report for you. It should be ready within 24 hours.' />
         <link rel='canonical' href='/report' />
         <link rel="icon" href="/favicon.ico" />

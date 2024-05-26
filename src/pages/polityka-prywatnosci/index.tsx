@@ -16,7 +16,7 @@ export default function PolitykaPrywatnosci() {
   return (
     <>
       <Head>
-        <title>Polityka prywatnosci | Jeli Digital Agency</title>
+        <title>Polityka prywatnosci |  RicBorn Marketing Agency</title>
         <meta name='description' content='' />
         <link rel='canonical' href='/polityka-prywatnosci' />
         <link rel="icon" href="/favicon.ico" />
@@ -43,7 +43,7 @@ export default function PolitykaPrywatnosci() {
           <p><strong>Partner</strong> oznacza podmiot, który kontroluje, jest kontrolowany lub znajduje się pod wspólną kontrolą ze stroną, gdzie &quot;kontrola&quot; oznacza posiadanie 50% lub więcej akcji, udziałów lub innych papierów wartościowych uprawniających do głosowania przy wyborze dyrektorów lub innych organów zarządzających.</p>
           </li>
           <li>
-          <p><strong>Firma</strong> (określane jako &quot;Firma&quot;, &quot;My&quot;, &quot;Nas&quot; lub &quot;Nasz&quot; w niniejszej Umowie) odnosi się do jeli.pl.</p>
+          <p><strong>Firma</strong> (określane jako &quot;Firma&quot;, &quot;My&quot;, &quot;Nas&quot; lub &quot;Nasz&quot; w niniejszej Umowie) odnosi się do aoristlabs.co.</p>
           </li>
           <li>
           <p><strong>Pliki cookie</strong> to małe pliki, które są umieszczane na komputerze, urządzeniu mobilnym lub innym urządzeniu użytkownika przez witrynę internetową, zawierające między innymi szczegóły historii przeglądania tej witryny przez użytkownika.</p>
@@ -67,7 +67,7 @@ export default function PolitykaPrywatnosci() {
           <p><strong>Dane użycia</strong> odnosi się do danych gromadzonych automatycznie, generowanych przez korzystanie z Usługi lub z samej infrastruktury Usługi (na przykład czas trwania wizyty na stronie).</p>
           </li>
           <li>
-          <p><strong>Strona internetowa</strong> odnosi się do strony jeli.pl, dostępnej pod adresem <a href="https://www.jeli.pl" rel="external nofollow noopener" target="_blank">https://www.jeli.pl</a></p>
+          <p><strong>Strona internetowa</strong> odnosi się do strony aoristlabs.co, dostępnej pod adresem <a href="https://www.aoristlabs.co" rel="external nofollow noopener" target="_blank">https://www.aoristlabs.co</a></p>
           </li>
           <li>
           <p><strong>Ty</strong> oznacza osobę fizyczną uzyskującą dostęp do Usługi lub korzystającą z niej albo spółkę lub inny podmiot prawny, w imieniu którego taka osoba fizyczna uzyskuje dostęp do Usługi lub z niej korzysta.</p>
@@ -197,7 +197,7 @@ export default function PolitykaPrywatnosci() {
           <h1>Kontakt</h1>
           <p>W przypadku jakichkolwiek pytań dotyczących niniejszej Polityki Prywatności można się z nami skontaktować:</p>
           <ul>
-          <li>Przez e-mail: admin@jeli.pl</li>
+          <li>Przez e-mail: admin@aoristlabs.co</li>
           </ul>
         </div>
         <Footer />

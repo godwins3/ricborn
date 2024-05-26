@@ -120,7 +120,7 @@ export function Footer() {
     <footer className={classes.footer}>
       <Container className={classes.inner}>
         <Link href='/' style={{textDecoration: 'none'}}>
-          {theme.colorScheme === 'light' ? <Image src={logoDark} alt="Logo jeli.pl" title='jeli.pl' loading='lazy' width='200' height='112' className={classes.logo} /> : <Image src={logoLight} alt="Logo jeli.pl" title='jeli.pl' loading='lazy' width='200' height='112' className={classes.logo} />}
+          {theme.colorScheme === 'light' ? <Image src={logoDark} alt="Logo aoristlabs.co" title='aoristlabs.co' loading='lazy' width='200' height='112' className={classes.logo} /> : <Image src={logoLight} alt="Logo aoristlabs.co" title='aoristlabs.co' loading='lazy' width='200' height='112' className={classes.logo} />}
         </Link>
         <div className={classes.groups}>
           <div className={classes.wrapper}>
@@ -174,11 +174,11 @@ export function Footer() {
       </Container>
       <Container className={classes.afterFooter}>
         <Text color="dimmed" size="sm">
-          © 2023 jeli.pl. All rights reserved. Powered by jeli.pl
+          © 2023 aoristlabs.co. All rights reserved. Powered by aoristlabs.co
         </Text>
 
         <Group spacing={0} className={classes.social} position="right" noWrap>
-          <Link href='mailto: agency@jeli.pl'>
+          <Link href='mailto: agency@aoristlabs.co'>
             <ActionIcon size="lg">
               <IconMail size="1.05rem" stroke={1.5} />
             </ActionIcon>

@@ -19,7 +19,7 @@ export default function Pricing() {
   return (
     <>
       <Head>
-        <title>Pricing  | Jeli Digital Agency</title>
+        <title>Pricing  |  RicBorn Marketing Agency</title>
         <meta name='description' content='On this page you will find all the information about how we price our services.' />
         <link rel='canonical' href='/pricing' />
         <link rel="icon" href="/favicon.ico" />

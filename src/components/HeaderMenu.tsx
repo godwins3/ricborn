@@ -1,11 +1,11 @@
-import { createStyles, useMantineTheme, Header, Group, Burger, Container, rem, Title, useMantineColorScheme, Switch, Drawer, Text, Menu, Button, Divider } from '@mantine/core';
+import { createStyles, useMantineTheme, Header, Group, Burger, Container, rem, useMantineColorScheme, Switch, Drawer, Text, Menu, Button, Divider } from '@mantine/core';
 import Image from 'next/image'
 import { useDisclosure } from '@mantine/hooks';
 import Link from 'next/link'
-import { IconChevronDown, IconMoonStars, IconSun, IconMenu2 } from '@tabler/icons-react';
+import { IconMoonStars, IconSun, IconMenu2 } from '@tabler/icons-react';
 import logoLight from './../assets/logoLight.png';
 import { useTranslation } from 'next-i18next'
-import { useState } from 'react';
+
 
 
 const lngs = {
@@ -213,7 +213,7 @@ const mockdata = [
   {
     "link": "/",
     // "label": "Home page",
-    "label": "header.home",
+    "label": "Home",
   },
   {
     "link": "/solutions",
@@ -247,38 +247,6 @@ const mockdata = [
   // },
 ];
 
-export function LanguageMenu() {
-  const theme = useMantineTheme();
-  const { classes } = useStyles();
-  const { t } = useTranslation();
-
-  return (
-    <Menu
-      transitionProps={{ transition: 'scale-y' }}
-      position="top-end"
-      width={'auto'}
-      withinPortal
-    >
-      <Menu.Target>
-        <Button className={classes.link} style={{padding: `${rem(0)} ${rem(12)}`}} rightIcon={<IconChevronDown size="1.05rem" stroke={1.5} />} pr={12}>
-          Language
-        </Button>
-      </Menu.Target>
-      <Menu.Dropdown className={classes.dropdown}>
-        <Menu.Item>
-          <Link href="/" locale="pl" key={'Polish'} className={classes.language_label}>
-            Polish
-          </Link>
-        </Menu.Item>
-        <Menu.Item>
-          <Link href="/" locale="en" key={'English'} className={classes.language_label}>
-            English
-          </Link>
-        </Menu.Item>
-      </Menu.Dropdown>
-    </Menu>
-  );
-}
 
 export function ButtonsMenu() {
   const theme = useMantineTheme();
@@ -341,15 +309,11 @@ export function HeaderMenu() {
         <div className={classes.inner}>
           <div className={classes.logo}>
             <Link href='/'>
-              <Image src={logoLight} alt="Logo jeli.pl" title='jeli.pl' loading='eager' height='50' width='89' />
+              <Image src={logoLight} alt="Logo aoristlabs.co" title='aoristlabs.co' loading='eager' height='50' width='89' />
             </Link>
           </div>
           <Group spacing={10} className={classes.links}>
             {items}
-          </Group>
-          <Group className={classes.buttons}>
-            <LanguageMenu></LanguageMenu>
-            <SwitchToggle />
           </Group>
           <div className={classes.buttons_menu}>
             <ButtonsMenu />
@@ -367,7 +331,7 @@ export function HeaderMenu() {
             <Container size='fluid'>
               <div className={classes.inner}>
                 <Link href='/'>
-                  <Image src={logoLight} alt="Logo jeli.pl" title='jeli.pl' loading='eager' height='50' width='89'/>
+                  <Image src={logoLight} alt="Logo aoristlabs.co" title='aoristlabs.co' loading='eager' height='50' width='89'/>
                 </Link>
                 <Burger
                   opened={opened}
@@ -379,20 +343,6 @@ export function HeaderMenu() {
               </div>
             </Container>
           </Header>
-          <div className={classes.responsive_menu}>
-            {items}
-            <Divider size='sm' w={'70%'} variant='solid' my='xl' color={theme.colors.gray[5]} />
-            <div style={{height: 30, display: 'flex', alignItems: 'center'}}>
-              <SwitchToggle />
-            </div>
-            <Text className={classes.link}>Language:</Text>
-            <Link href="/" locale="pl" key={'Polish'} className={classes.language_label}>
-              Polish
-            </Link>
-            <Link href="/" locale="en" key={'English'} className={classes.language_label}>
-              English
-            </Link>
-          </div>
         </Drawer>
       </Container>
     </Header>

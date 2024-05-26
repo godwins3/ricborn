@@ -166,11 +166,11 @@ export function ContactSection() {
                         {t("contact_section.text")}
                     </Text>
                     <div style={{marginTop: '40px'}}>
-                        <a href='https://www.jeli.pl'>
+                        <a href='https://www.aoristlabs.co'>
                             <Button className={classes.button} size='lg' radius='md'>
                                 <IconWorldWww size="1.5rem" stroke={2} />
                                 <Text ml={20}>
-                                    jeli.pl
+                                    aoristlabs.co
                                 </Text>
                             </Button>
                         </a>

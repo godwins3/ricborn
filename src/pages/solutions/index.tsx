@@ -18,7 +18,7 @@ export default function Solutions() {
   return (
     <>
       <Head>
-        <title>Solutions | Jeli Digital Agency</title>
+        <title>Solutions |  RicBorn Marketing Agency</title>
         <meta name='description' content='Check out our solutions: websites, seo, social media, digital marketing' />
         <link rel='canonical' href='/solutions' />
         <link rel="icon" href="/favicon.ico" />

@@ -20,7 +20,7 @@ export default function SocialMedia() {
   return (
     <>
       <Head>
-        <title>Social media | Jeli Digital Agency</title>
+        <title>Social media |  RicBorn Marketing Agency</title>
         <meta name='description' content="Social media is one of the most important elements of building a brand nowadays. Social media is also one of the best places to run advertising campaigns and reach new customers." />
         <link rel='canonical' href='/search-engine-optimization' />
         <link rel="icon" href="/favicon.ico" />

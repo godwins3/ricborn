@@ -19,7 +19,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact | Jeli Digital Agency</title>
+        <title>Contact |  RicBorn Marketing Agency</title>
         <meta name='description' content="Write us what you need. We will answer all your questions. If you want to use our services, we can arrange a video conference to discuss the details." />        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel='canonical' href='/contact' />
         <link rel="icon" href="/favicon.ico" />

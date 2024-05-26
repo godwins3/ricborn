@@ -21,7 +21,7 @@ export default function SEO() {
   return (
     <>
       <Head>
-        <title>SEO | Jeli Digital Agency</title>
+        <title>SEO |  RicBorn Marketing Agency</title>
         <meta name='description' content="You don't have to look for customers, they are already looking for you. Just let them know you exist." />
         <link rel='canonical' href='/search-engine-optimization' />
         <link rel="icon" href="/favicon.ico" />

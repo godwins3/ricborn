@@ -5,7 +5,7 @@
         "button": "Take me back to home page"
     },
     "header": {
-        "home": "Home page",
+        "homepage": "Home",
         "solutions": "Solutions",
         "pricing": "Pricing",
         "blog": "Blog",
@@ -15,7 +15,7 @@
     },
     "footer": {
         "title1": "Navigation",
-        "home": "Home page",
+        "home": "Home",
         "solutions": "Solutions",
         "pricing": "Pricing",
         "blog": "Blog",
@@ -39,7 +39,7 @@
         "button": "Accept all cookies"
     },
     "hero": {
-        "title": "Digital Agency - Your trusted partner in the digital world",
+        "title": "RicBorn Marketing Agency - Your trusted partner in the digital world",
         "button": "Contact",
         "search1": "Websites",
         "search2": "Search Engine Optimization",
@@ -53,7 +53,7 @@
         "feature1": "Websites",
         "description1": "Design, UI/UX, development, hosting, domains",
         "feature2": "Search Engine Optimization",
-        "description2": "SEO, SEM, Google Business Profil",
+        "description2": "SEO, SEM, Google Business Profile",
         "feature3": "Social media",
         "description3": "Management, Advertising campaigns",
         "feature4": "And more...",
@@ -278,7 +278,7 @@
         "feature2": "On-Page Optimization",
         "description2": "Optimizing individual web pages by incorporating targeted keywords into titles, meta tags, headings, content, and URLs. This also involves improving the overall user experience, ensuring the website is easy to navigate and read.",
         "feature3": "Off-Page Optimization",
-        "description3": "Building the website's authority and credibility through external factors such as backlinks (links from other websites), social media presence, and online mentions.",
+        "description3": "Building the website's authority and credibility through external factors such as back links (links from other websites), social media presence, and online mentions.",
         "feature4": "Local SEO",
         "description4": "For businesses with a physical presence, optimizing to appear in local search results, such as Google My Business listings and local directories.",
         "feature5": "Content Marketing",
@@ -318,7 +318,7 @@
         "title": "Social media marketing strategy",
         "text": "There are many ways to promote your products, services and brands on social media platforms. Depending on your business and marketing goals, you should build a strategy based on a combination of the following elements:",
         "feature1": "Content Creation",
-        "description1": "Social media marketing involves producing various types of content, such as text posts, images, videos, infographics, and interactive content, tailored to the preferences of the target audience and the specific platform.",
+        "description1": "Social media marketing involves producing various types of content, such as text posts, images, videos, info graphics, and interactive content, tailored to the preferences of the target audience and the specific platform.",
         "feature2": "Management",
         "description2": "Managing social media accounts involves posting content regularly, responding to comments and messages, monitoring trends, and engaging with followers to build a loyal community.",
         "feature3": "Advertising",

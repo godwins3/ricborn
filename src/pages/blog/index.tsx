@@ -19,7 +19,7 @@ export default function Blog() {
   return (
     <>
       <Head>
-        <title>Blog | Jeli Digital Agency</title>
+        <title>Blog |  RicBorn Marketing Agency</title>
         <meta name='description' content="Here we share our knowledge and experience in website development, SEO, social media and digital marketing. Everything that will make you visible on the Internet." />
         <link rel='canonical' href='/blog' />
         <link rel="icon" href="/favicon.ico" />

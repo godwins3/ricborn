@@ -19,7 +19,7 @@ export default function GetStarted() {
   return (
     <>
       <Head>
-        <title>Get started | Jeli Digital Agency</title>
+        <title>Get started |  RicBorn Marketing Agency</title>
         <meta name='description' content="Not sure where to start? Answer a few questions below for personalized suggestions." />
         <link rel='canonical' href='/get-started' />
         <link rel="icon" href="/favicon.ico" />

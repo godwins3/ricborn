@@ -60,7 +60,7 @@ export default function NotFoundPage() {
     return (
         <>
             <Head>
-                <title>Jeli Digital Agency | Websites | SEO | Social media</title>
+                <title> RicBorn Marketing Agency | Websites | SEO | Social media</title>
                 <meta name='description' content='404' />
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="robots" content="Noindex" />

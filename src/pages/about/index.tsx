@@ -20,7 +20,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Us | Digital Agency</title>
+        <title>About Us | RicBorn MArketing Agency</title>
         <meta name='description' content="Digital Agency is a modern company that offers a comprehensive approach to online marketing, from website to social media." />        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel='canonical' href='/about' />
         <link rel="icon" href="/favicon.ico" />

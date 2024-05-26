@@ -146,7 +146,7 @@ export function HeroSection() {
 
     return (
         <div className={classes.container}>
-            {theme.colorScheme === 'light' ? <Image src={logoDark} alt="Logo jeli.pl" title='jeli.pl' loading='eager' width='320' height='180' className={classes.logo} /> : <Image src={logoLight} alt="Logo jeli.pl" title='jeli.pl' loading='eager' width='320' height='180' className={classes.logo} />}
+            {theme.colorScheme === 'light' ? <Image src={logoDark} alt="Logo aoristlabs.co" title='aoristlabs.co' loading='eager' width='320' height='180' className={classes.logo} /> : <Image src={logoLight} alt="Logo aoristlabs.co" title='aoristlabs.co' loading='eager' width='320' height='180' className={classes.logo} />}
             <div className={classes.search_bar}>
                 <TypeAnimation
                     sequence={[
