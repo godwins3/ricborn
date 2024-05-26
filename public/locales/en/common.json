@@ -43,8 +43,13 @@
         "button": "Contact",
         "search1": "Websites",
         "search2": "Search Engine Optimization",
-        "search3": "Social media",
-        "search4": "Digital marketing"
+        "search3": "Social media marketing",
+        "search4": "Digital marketing",
+        "search5": "Content creation",
+        "search6": "Corporate communication",
+        "search7": "Media planning",
+        "search8": "Google Ads",
+        "search9": "copywriting"
     },
     "about_section": {
         "title": "Make yourself ",
