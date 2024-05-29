@@ -218,7 +218,7 @@ const mockdata = [
   {
     "link": "/solutions",
     // "label": "Solutions",
-    "label": "header.solutions",
+    "label": "Products and Services",
   },
   {
     "link": "/pricing",
@@ -240,11 +240,11 @@ const mockdata = [
     // "label": "Contact",
     "label": "header.contact",
   },
-  // {
-  //   "link": "/get-started",
-  //   // "label": "Get started",
-  //   "label": "header.get_started",
-  // },
+  {
+    "link": "https://wa.me/254713181192",
+    // "label": "Get started",
+    "label": "Book with us",
+  },
 ];
 
 
